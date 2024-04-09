@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:heading>
-        Job Listing
+        Job Listing <span class="text-sm text-gray-400">total {{ App\Models\Job::count() }}</span>
     </x-slot:heading>
 
     <div class="space-y-4">
